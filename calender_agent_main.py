@@ -6,7 +6,6 @@ from llama_index.core.llms import ChatMessage
 from llama_index.llms.openai import OpenAI
 from datetime import datetime
 from llama_index.core import Settings
-import pytz
 
 # Load environment variables from .env file
 dotenv.load_dotenv()
